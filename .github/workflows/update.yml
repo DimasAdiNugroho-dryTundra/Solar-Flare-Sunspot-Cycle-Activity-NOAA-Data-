@@ -1,0 +1,49 @@
+name: Daily NOAA Solar Telemetry Sync
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Triggered daily at 00:00 UTC
+  workflow_dispatch:      # Allows manual trigger via GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  solar-telemetry-sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Fetch NOAA SWPC Telemetry & Update README
+        run: |
+          python fetch_solar.py
+
+      - name: Commit and Push Space Weather Updates
+        run: |
+          git config --local user.name "DimasAdiNugroho-dryTundra"
+          git config --local user.email "dimasadi030512@gmail.com"
+
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            SYNC_DATE=$(date -u +'%Y-%m-%d')
+            git add README.md
+            git commit -m "telemetry(solar): sync daily NOAA space weather [${SYNC_DATE}] (Automated Actions Telemetry)"
+            git push origin main
+            echo "Successfully synced and pushed NOAA solar telemetry for ${SYNC_DATE}."
+          else
+            echo "README.md is already up to date with current NOAA observations. No changes to commit."
+          fi
