@@ -5,7 +5,7 @@
 
 [![Solar Cycle 25: Active](https://img.shields.io/badge/Solar%20Cycle-Cycle%2025%20(Maximum%20Phase)-E65100?style=for-the-badge&logo=nasa&logoColor=white)](https://www.swpc.noaa.gov)
 [![NOAA SWPC Feed](https://img.shields.io/badge/Data%20Source-NOAA%20SWPC%20Telemetry-0277BD?style=for-the-badge&logo=satellite&logoColor=white)](https://services.swpc.noaa.gov)
-[![Geomagnetic Status](https://img.shields.io/badge/Geomagnetic%20Activity-🟢%20Nominal-brightgreen?style=for-the-badge&logo=speedtest&logoColor=white)](https://www.swpc.noaa.gov/products/planetary-k-index)
+[![Geomagnetic Status](https://img.shields.io/badge/Geomagnetic%20Activity-🟢%20Quiet-brightgreen?style=for-the-badge&logo=speedtest&logoColor=white)](https://www.swpc.noaa.gov/products/planetary-k-index)
 [![Daily Automated Sync](https://img.shields.io/badge/Automated%20Telemetry-Operational-2E7D32?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/DimasAdiNugroho-dryTundra)
 
 <p align="center">
@@ -22,10 +22,10 @@
 
 | Space Weather Metric | Observation Value | Visual Intensity Gauge | Operational Status / Assessment |
 | :--- | :---: | :---: | :--- |
-| **Daily Sunspot Number (SSN)** | **`176`** | `[▰▰▰▰▰▰▰▱▱▱]` | Active solar disk complex; multiple bipoles |
-| **10.7 cm Solar Radio Flux** | **`193.0 sfu`** | `[▰▰▰▰▰▰▰▱▱▱]` | Ionospheric F2-layer ionization baseline |
-| **Planetary Kp-Index (3h Max)** | **`3.37`** | `[▰▰▰▰▱▱▱▱▱▱]` | **G0 (Unsettled)** — Low geomagnetic fluctuations |
-| **24h Solar Flare Activity** | **`M7.0 @ 08:50 UTC`** | `C:6  M:1  X:0` | **🟡 MODERATE / ELEVATED** |
+| **Daily Sunspot Number (SSN)** | **`180`** | `[▰▰▰▰▰▰▰▱▱▱]` | Active solar disk complex; multiple bipoles |
+| **10.7 cm Solar Radio Flux** | **`194.9 sfu`** | `[▰▰▰▰▰▰▰▱▱▱]` | Ionospheric F2-layer ionization baseline |
+| **Planetary Kp-Index (3h Max)** | **`1.91`** | `[▰▰▱▱▱▱▱▱▱▱]` | **G0 (Quiet)** — Minimal magnetospheric disturbance |
+| **24h Solar Flare Activity** | **`C5.9 @ 01:18 UTC`** | `C:6  M:0  X:0` | **🟢 NORMAL / PRODUCTIVE** |
 | **Solar Wind / IMF Condition** | **`Nominal (Estimated)`** | `~420 km/s &#124; Bz: ~-1.8 nT` | Coupled interplanetary magnetic field |
 
 ---
@@ -51,13 +51,13 @@ Moving observation window capturing the last 7 days leading to the current telem
 
 | Date (UTC) | Sunspot (SSN) | Radio Flux (10.7cm) | Max Kp | Geomagnetic Status | Flares (C / M / X) | Peak Flare Class |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `2025-10-02` | **180** | 204.5 sfu | Kp 1.56 | 🟢 Quiet | `C:9 M:0 X:0` | `C8.3` |
 | `2025-10-03` | **184** | 205.2 sfu | Kp 1.81 | 🟢 Quiet | `C:10 M:0 X:0` | `C7.6` |
 | `2025-10-04` | **181** | 201.1 sfu | Kp 3.46 | 🟢 Nominal | `C:10 M:0 X:0` | `C8.7` |
 | `2025-10-05` | **175** | 196.2 sfu | Kp 1.29 | 🟢 Quiet | `C:8 M:0 X:0` | `C8.4` |
 | `2025-10-06` | **179** | 198.3 sfu | Kp 1.35 | 🟢 Quiet | `C:6 M:0 X:0` | `C2.9` |
 | `2025-10-07` | **193** | 215.2 sfu | Kp 0.82 | 🟢 Quiet | `C:10 M:0 X:0` | `C2.9` |
 | `2025-10-08` | **176** | 193.0 sfu | Kp 3.37 | 🟢 Nominal | `C:6 M:1 X:0` | `M7.0` |
+| `2025-10-09` | **180** | 194.9 sfu | Kp 1.91 | 🟢 Quiet | `C:6 M:0 X:0` | `C5.9` |
 
 ---
 
@@ -125,7 +125,7 @@ Moving observation window capturing the last 7 days leading to the current telem
 <div align="center">
 
 ### ⏱️ Last Automated Telemetry Sync
-`2025-10-08 09:24:51 UTC`
+`2025-10-09 17:04:10 UTC`
 
 **Data Telemetry Source:** [NOAA SWPC](https://www.swpc.noaa.gov/) & [SILSO Royal Observatory of Belgium](https://www.sidc.be/silso/)  
 **Maintained by:** [DimasAdiNugroho-dryTundra](https://github.com/DimasAdiNugroho-dryTundra) • *Autonomous Solar Data Pipeline*
