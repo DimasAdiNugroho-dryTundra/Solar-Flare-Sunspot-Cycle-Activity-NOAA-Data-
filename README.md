@@ -23,9 +23,9 @@
 | Space Weather Metric | Observation Value | Visual Intensity Gauge | Operational Status / Assessment |
 | :--- | :---: | :---: | :--- |
 | **Daily Sunspot Number (SSN)** | **`154`** | `[▰▰▰▰▰▰▱▱▱▱]` | Active solar disk complex; multiple bipoles |
-| **10.7 cm Solar Radio Flux** | **`167.7 sfu`** | `[▰▰▰▰▰▰▱▱▱▱]` | Ionospheric F2-layer ionization baseline |
-| **Planetary Kp-Index (3h Max)** | **`2.78`** | `[▰▰▰▱▱▱▱▱▱▱]` | **G0 (Unsettled)** — Low geomagnetic fluctuations |
-| **24h Solar Flare Activity** | **`C2.5 @ 20:06 UTC`** | `C:5  M:0  X:0` | **🟢 NORMAL / PRODUCTIVE** |
+| **10.7 cm Solar Radio Flux** | **`174.6 sfu`** | `[▰▰▰▰▰▰▱▱▱▱]` | Ionospheric F2-layer ionization baseline |
+| **Planetary Kp-Index (3h Max)** | **`2.59`** | `[▰▰▰▱▱▱▱▱▱▱]` | **G0 (Unsettled)** — Low geomagnetic fluctuations |
+| **24h Solar Flare Activity** | **`C6.7 @ 09:22 UTC`** | `C:8  M:0  X:0` | **🟢 NORMAL / PRODUCTIVE** |
 | **Solar Wind / IMF Condition** | **`Nominal (Estimated)`** | `~420 km/s &#124; Bz: ~-1.8 nT` | Coupled interplanetary magnetic field |
 
 ---
@@ -51,13 +51,13 @@ Moving observation window capturing the last 7 days leading to the current telem
 
 | Date (UTC) | Sunspot (SSN) | Radio Flux (10.7cm) | Max Kp | Geomagnetic Status | Flares (C / M / X) | Peak Flare Class |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `2026-01-03` | **164** | 183.8 sfu | Kp 1.20 | 🟢 Quiet | `C:10 M:1 X:0` | `M8.7` |
 | `2026-01-04` | **150** | 160.4 sfu | Kp 0.84 | 🟢 Quiet | `C:8 M:1 X:0` | `M4.0` |
 | `2026-01-05` | **155** | 163.3 sfu | Kp 4.20 | 🟡 Active | `C:7 M:0 X:0` | `C8.2` |
 | `2026-01-06` | **149** | 159.5 sfu | Kp 3.93 | 🟢 Nominal | `C:7 M:0 X:0` | `C8.7` |
 | `2026-01-07` | **155** | 166.5 sfu | Kp 1.57 | 🟢 Quiet | `C:5 M:0 X:0` | `C6.9` |
 | `2026-01-08` | **157** | 169.7 sfu | Kp 1.72 | 🟢 Quiet | `C:5 M:0 X:0` | `C8.1` |
 | `2026-01-09` | **154** | 167.7 sfu | Kp 2.78 | 🟢 Nominal | `C:5 M:0 X:0` | `C2.5` |
+| `2026-01-10` | **154** | 174.6 sfu | Kp 2.59 | 🟢 Nominal | `C:8 M:0 X:0` | `C6.7` |
 
 ---
 
@@ -125,7 +125,7 @@ Moving observation window capturing the last 7 days leading to the current telem
 <div align="center">
 
 ### ⏱️ Last Automated Telemetry Sync
-`2026-01-09 11:15:43 UTC`
+`2026-01-10 10:28:24 UTC`
 
 **Data Telemetry Source:** [NOAA SWPC](https://www.swpc.noaa.gov/) & [SILSO Royal Observatory of Belgium](https://www.sidc.be/silso/)  
 **Maintained by:** [DimasAdiNugroho-dryTundra](https://github.com/DimasAdiNugroho-dryTundra) • *Autonomous Solar Data Pipeline*
