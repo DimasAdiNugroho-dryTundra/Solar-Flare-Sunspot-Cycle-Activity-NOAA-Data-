@@ -22,10 +22,10 @@
 
 | Space Weather Metric | Observation Value | Visual Intensity Gauge | Operational Status / Assessment |
 | :--- | :---: | :---: | :--- |
-| **Daily Sunspot Number (SSN)** | **`122`** | `[▰▰▰▰▰▱▱▱▱▱]` | Active solar disk complex; multiple bipoles |
-| **10.7 cm Solar Radio Flux** | **`137.1 sfu`** | `[▰▰▰▰▰▱▱▱▱▱]` | Ionospheric F2-layer ionization baseline |
-| **Planetary Kp-Index (3h Max)** | **`2.80`** | `[▰▰▰▱▱▱▱▱▱▱]` | **G0 (Unsettled)** — Low geomagnetic fluctuations |
-| **24h Solar Flare Activity** | **`C6.0 @ 23:42 UTC`** | `C:9  M:0  X:0` | **🟢 NORMAL / PRODUCTIVE** |
+| **Daily Sunspot Number (SSN)** | **`113`** | `[▰▰▰▰▰▱▱▱▱▱]` | Active solar disk complex; multiple bipoles |
+| **10.7 cm Solar Radio Flux** | **`141.7 sfu`** | `[▰▰▰▰▰▱▱▱▱▱]` | Ionospheric F2-layer ionization baseline |
+| **Planetary Kp-Index (3h Max)** | **`2.63`** | `[▰▰▰▱▱▱▱▱▱▱]` | **G0 (Unsettled)** — Low geomagnetic fluctuations |
+| **24h Solar Flare Activity** | **`C2.2 @ 20:14 UTC`** | `C:8  M:0  X:0` | **🟢 NORMAL / PRODUCTIVE** |
 | **Solar Wind / IMF Condition** | **`Nominal (Estimated)`** | `~420 km/s &#124; Bz: ~-1.8 nT` | Coupled interplanetary magnetic field |
 
 ---
@@ -51,13 +51,13 @@ Moving observation window capturing the last 7 days leading to the current telem
 
 | Date (UTC) | Sunspot (SSN) | Radio Flux (10.7cm) | Max Kp | Geomagnetic Status | Flares (C / M / X) | Peak Flare Class |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `2026-08-08` | **139** | 162.7 sfu | Kp 3.60 | 🟢 Nominal | `C:7 M:0 X:0` | `C9.5` |
 | `2026-08-09` | **127** | 160.3 sfu | Kp 2.41 | 🟢 Nominal | `C:7 M:0 X:0` | `C7.8` |
 | `2026-08-10` | **117** | 138.1 sfu | Kp 0.70 | 🟢 Quiet | `C:5 M:0 X:0` | `C8.1` |
 | `2026-08-11` | **114** | 142.5 sfu | Kp 1.53 | 🟢 Quiet | `C:5 M:0 X:0` | `C6.8` |
 | `2026-08-12` | **102** | 131.8 sfu | Kp 3.62 | 🟢 Nominal | `C:4 M:0 X:0` | `C6.2` |
 | `2026-08-13` | **112** | 131.6 sfu | Kp 1.39 | 🟢 Quiet | `C:7 M:0 X:0` | `C5.1` |
 | `2026-08-14` | **122** | 137.1 sfu | Kp 2.80 | 🟢 Nominal | `C:9 M:0 X:0` | `C6.0` |
+| `2026-08-15` | **113** | 141.7 sfu | Kp 2.63 | 🟢 Nominal | `C:8 M:0 X:0` | `C2.2` |
 
 ---
 
@@ -125,7 +125,7 @@ Moving observation window capturing the last 7 days leading to the current telem
 <div align="center">
 
 ### ⏱️ Last Automated Telemetry Sync
-`2026-08-14 20:21:49 UTC`
+`2026-08-15 10:01:48 UTC`
 
 **Data Telemetry Source:** [NOAA SWPC](https://www.swpc.noaa.gov/) & [SILSO Royal Observatory of Belgium](https://www.sidc.be/silso/)  
 **Maintained by:** [DimasAdiNugroho-dryTundra](https://github.com/DimasAdiNugroho-dryTundra) • *Autonomous Solar Data Pipeline*
